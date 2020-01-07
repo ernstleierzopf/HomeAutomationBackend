@@ -2,6 +2,7 @@ package homeautomation.backend.rest;
 
 import java.net.URI;
 import java.util.List;
+import java.util.logging.Logger;
 
 import javax.annotation.PostConstruct;
 import javax.persistence.EntityManager;
@@ -18,7 +19,6 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
-import org.apache.log4j.Logger;
 
 import homeautomation.backend.entity.User;
 

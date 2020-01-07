@@ -5,11 +5,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.sql.Timestamp;
 import java.util.List;
+import java.util.logging.Logger;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
-import org.apache.log4j.Logger;
+
 import homeautomation.backend.entity.Sensor;
 import homeautomation.backend.entity.SensorMeasurement;
 

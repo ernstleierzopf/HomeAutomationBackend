@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
+import java.util.logging.Logger;
 
 import javax.persistence.NoResultException;
 import javax.servlet.FilterChain;
@@ -13,7 +14,6 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.apache.log4j.Logger;
 import org.apache.tomcat.util.codec.binary.Base64;
 
 import homeautomation.backend.entity.User;
